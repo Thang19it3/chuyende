@@ -1,0 +1,32 @@
+<div class="row">
+  <table class="table"  >
+  <% @tacgia.each do |tacgia|%>
+  <thead>
+    <tr>
+      <th scope="col">Mã tác giả</th>
+      <th scope="col">tên</th>
+      <th scope="col">website</th>
+      <th scope="col">ghi chú</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>
+      <%= tacgia.ma_tg  %>
+      </td>
+      <td>
+       <%= tacgia.ten_tg%></td>
+      <td>
+      <%= tacgia.website%></td>
+      </td>
+      <td>
+      <%= tacgia.ghichu%></td>
+      </td>
+    </tr>
+
+  </tbody>
+  <%end%>
+</table>
+
+</div>

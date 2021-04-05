@@ -1,0 +1,22 @@
+<div class="row">
+<% @theloai.each do |theloai|%>
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Mã thể loại</th>
+      <th scope="col">tên</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+      <%= theloai.ma_the_loai %>
+      </td>
+      <td>
+       <%= theloai.ten_the_loai %></td>
+    </tr>
+    
+  </tbody>
+</table>
+<% end %>
+</div>

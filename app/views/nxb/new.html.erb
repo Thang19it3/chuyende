@@ -1,0 +1,28 @@
+<div class="row">
+<% @nxb.each do |nxb|%>
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Mã nhã xuất bản</th>
+      <th scope="col">tên</th>
+      <th scope="col">Địa chỉ</th>
+      <th scope="col">email</th>
+      <th scope="col">Thông tin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>
+      <%= nxb.ma_nxb%>
+      </td>
+      <td><%= nxb.ten%></td>
+      <td><%= nxb.diachi%></td>
+      <td><%= nxb.email%></td>
+       <td><%= nxb.thongtin%></td>
+    </tr>
+    
+  </tbody>
+</table>
+<%end%>
+</div>

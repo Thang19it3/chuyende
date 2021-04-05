@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ma_tg: MyString
+  ten_tg: MyString
+  website: MyString
+  ghichu: MyString
+
+two:
+  ma_tg: MyString
+  ten_tg: MyString
+  website: MyString
+  ghichu: MyString

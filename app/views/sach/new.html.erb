@@ -1,0 +1,29 @@
+<div class="row">
+<% @sach.each do |book|%>
+ <table class="table">
+  <thead>
+    <tr>
+       <th scope="col">Mã_Sách</th>
+      <th scope="col">Tên</th>
+      <th scope="col">năm xuất bản</th>
+      <th scope="col">tác giả</th>
+      <th scope="col">the loai</th>
+      <th scope="col">ma thể loại</th>
+      <th scope="col">mã nhà xuất bản </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td><%= book.ma_book%></td>
+    <td><%= book.ten%></td>
+    <td><%= book.nam%></td>
+    <td><%= book.tacgia_id%></td>
+        <td><%= book.the_loai_sach_id%></td>
+         <td><%= book.nxb_id %></td>
+    </tr>
+
+  </tbody>
+  <%end%>
+</table>
+
+</div>

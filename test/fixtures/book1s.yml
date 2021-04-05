@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ma_book: MyString
+  ten: MyString
+  nam: MyString
+  nxb: one
+  tacgia: one
+  the_loai_sach: one
+
+two:
+  ma_book: MyString
+  ten: MyString
+  nam: MyString
+  nxb: two
+  tacgia: two
+  the_loai_sach: two
